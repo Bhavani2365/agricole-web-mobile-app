@@ -1,0 +1,148 @@
+import type { Review } from "@/lib/types"
+
+export const mockReviews: Review[] = [
+  {
+    id: "rev-1",
+    userId: "user-2",
+    userName: "Maria Garcia",
+    userAvatar: "",
+    targetId: "plant-1",
+    targetType: "plant",
+    rating: 5,
+    comment:
+      "These cherry tomatoes are incredible! I got over 100 fruits from just two plants. Perfect for salads and snacking straight from the vine.",
+    date: "2025-12-15",
+  },
+  {
+    id: "rev-2",
+    userId: "user-3",
+    userName: "James Wilson",
+    userAvatar: "",
+    targetId: "plant-2",
+    targetType: "plant",
+    rating: 4,
+    comment:
+      "Basil grew beautifully on my windowsill. Great flavor for pesto. Just make sure to pinch the flowers early!",
+    date: "2025-11-28",
+  },
+  {
+    id: "rev-3",
+    userId: "user-4",
+    userName: "Sarah Chen",
+    userAvatar: "",
+    targetId: "plant-3",
+    targetType: "plant",
+    rating: 5,
+    comment:
+      "My kids loved watching these sunflowers grow taller than them! The seeds were also a fun harvest project.",
+    date: "2026-01-05",
+  },
+  {
+    id: "rev-4",
+    userId: "user-5",
+    userName: "David Kim",
+    userAvatar: "",
+    targetId: "prod-1",
+    targetType: "product",
+    rating: 5,
+    comment:
+      "Excellent germination rate on all varieties. The heirloom tomatoes and peppers were the highlight of my garden this year.",
+    date: "2025-12-20",
+  },
+  {
+    id: "rev-5",
+    userId: "user-2",
+    userName: "Maria Garcia",
+    userAvatar: "",
+    targetId: "prod-2",
+    targetType: "product",
+    rating: 4,
+    comment:
+      "Solid tools at a great price. The trowel is my favorite - sturdy and comfortable grip. The cultivator could be a bit wider.",
+    date: "2026-01-10",
+  },
+  {
+    id: "rev-6",
+    userId: "user-3",
+    userName: "James Wilson",
+    userAvatar: "",
+    targetId: "prod-4",
+    targetType: "product",
+    rating: 5,
+    comment:
+      "Best organic fertilizer I have used. My vegetables are thriving and the slow-release formula means less frequent applications.",
+    date: "2026-01-18",
+  },
+  {
+    id: "rev-7",
+    userId: "user-4",
+    userName: "Sarah Chen",
+    userAvatar: "",
+    targetId: "plant-5",
+    targetType: "plant",
+    rating: 4,
+    comment:
+      "Mint grows like crazy! I recommend keeping it in a pot unless you want it everywhere. Makes amazing mojitos and tea.",
+    date: "2025-11-10",
+  },
+  {
+    id: "rev-8",
+    userId: "user-5",
+    userName: "David Kim",
+    userAvatar: "",
+    targetId: "prod-6",
+    targetType: "product",
+    rating: 5,
+    comment:
+      "This potting mix is the best I have found. Great drainage while retaining enough moisture. All my container plants love it.",
+    date: "2026-02-01",
+  },
+  {
+    id: "rev-9",
+    userId: "user-6",
+    userName: "Emma Thompson",
+    userAvatar: "",
+    targetId: "plant-7",
+    targetType: "plant",
+    rating: 5,
+    comment:
+      "Alpine strawberries are a delight! Small but incredibly sweet. My hanging baskets produced berries all summer long.",
+    date: "2026-01-22",
+  },
+  {
+    id: "rev-10",
+    userId: "user-6",
+    userName: "Emma Thompson",
+    userAvatar: "",
+    targetId: "prod-3",
+    targetType: "product",
+    rating: 4,
+    comment:
+      "Beautiful classic terracotta pot. Good drainage and looks great on my patio. Just be careful in freezing temperatures.",
+    date: "2025-12-08",
+  },
+  {
+    id: "rev-11",
+    userId: "user-3",
+    userName: "James Wilson",
+    userAvatar: "",
+    targetId: "plant-4",
+    targetType: "plant",
+    rating: 5,
+    comment:
+      "Lavender is now my favorite garden plant. The scent is heavenly and it requires very little maintenance once established.",
+    date: "2026-02-10",
+  },
+  {
+    id: "rev-12",
+    userId: "user-2",
+    userName: "Maria Garcia",
+    userAvatar: "",
+    targetId: "plant-8",
+    targetType: "plant",
+    rating: 4,
+    comment:
+      "Rosemary has been thriving in my Mediterranean garden corner. Wonderful aroma and perfect for cooking. Takes a while to establish but worth the wait.",
+    date: "2026-01-30",
+  },
+]

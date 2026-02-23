@@ -1,0 +1,108 @@
+import type { Product } from "@/lib/types"
+
+export const mockProducts: Product[] = [
+  {
+    id: "prod-1",
+    name: "Heirloom Seed Collection",
+    image: "/images/products/seed-pack.jpg",
+    price: 24.99,
+    description:
+      "A curated collection of 12 heirloom vegetable seed varieties. Non-GMO, open-pollinated seeds perfect for starting a diverse garden. Includes tomato, pepper, cucumber, carrot, and more.",
+    rating: 4.8,
+    reviewCount: 124,
+    category: "Seeds",
+    inStock: true,
+    seller: "Heritage Seeds Co.",
+  },
+  {
+    id: "prod-2",
+    name: "Garden Hand Tool Set",
+    image: "/images/products/garden-tools.jpg",
+    price: 34.99,
+    description:
+      "Premium 3-piece garden hand tool set including trowel, transplanter, and cultivator. Ergonomic handles with rust-resistant stainless steel heads. Perfect for planting, weeding, and soil work.",
+    rating: 4.6,
+    reviewCount: 89,
+    category: "Tools",
+    inStock: true,
+    seller: "GreenThumb Tools",
+  },
+  {
+    id: "prod-3",
+    name: "Terracotta Planter",
+    image: "/images/products/ceramic-pot.jpg",
+    price: 18.5,
+    description:
+      "Classic terracotta planter with drainage hole, 8-inch diameter. Natural clay construction provides excellent breathability for roots. Timeless design suits any garden style.",
+    rating: 4.5,
+    reviewCount: 67,
+    category: "Pots",
+    inStock: true,
+    seller: "Clay Works Pottery",
+  },
+  {
+    id: "prod-4",
+    name: "Organic Plant Food",
+    image: "/images/products/fertilizer.jpg",
+    price: 15.99,
+    description:
+      "All-purpose organic granular fertilizer with balanced NPK ratio. Slow-release formula feeds plants for up to 3 months. Safe for edibles, flowers, and houseplants.",
+    rating: 4.7,
+    reviewCount: 203,
+    category: "Fertilizer",
+    inStock: true,
+    seller: "Nature's Best",
+  },
+  {
+    id: "prod-5",
+    name: "Vintage Watering Can",
+    image: "/images/products/watering-can.jpg",
+    price: 29.99,
+    description:
+      "Elegant 2-gallon watering can with detachable rose head for gentle watering. Powder-coated steel construction in a beautiful sage green finish.",
+    rating: 4.4,
+    reviewCount: 45,
+    category: "Watering",
+    inStock: true,
+    seller: "Garden Essentials",
+  },
+  {
+    id: "prod-6",
+    name: "Premium Potting Mix",
+    image: "/images/products/soil-mix.jpg",
+    price: 12.99,
+    description:
+      "Professional-grade potting soil with perlite, peat moss, and organic compost. Excellent drainage and moisture retention for container gardening.",
+    rating: 4.9,
+    reviewCount: 312,
+    category: "Soil",
+    inStock: true,
+    seller: "Earth Blend Co.",
+  },
+  {
+    id: "prod-7",
+    name: "LED Grow Light Panel",
+    image: "/images/products/grow-light.jpg",
+    price: 45.99,
+    description:
+      "Full-spectrum LED grow light for indoor plants and seed starting. Adjustable height, timer function, and energy-efficient. Covers up to 2x2 ft growing area.",
+    rating: 4.3,
+    reviewCount: 78,
+    category: "Lighting",
+    inStock: false,
+    seller: "Indoor Garden Tech",
+  },
+  {
+    id: "prod-8",
+    name: "Brass Plant Mister",
+    image: "/images/products/plant-mister.jpg",
+    price: 22.5,
+    description:
+      "Vintage-style brass plant mister with fine mist spray. Perfect for humidity-loving houseplants, seed starting, and delicate foliage. 10oz capacity.",
+    rating: 4.6,
+    reviewCount: 56,
+    category: "Accessories",
+    inStock: true,
+    seller: "Botanical Supply Co.",
+  },
+]
