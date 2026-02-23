@@ -1,19 +1,19 @@
 import {
   Carrot,
-  Flower2,
+  Flower,
   Cherry,
   TreePine,
-  Cactus,
-  Shrub,
+  Sun,
+  Sprout,
 } from "lucide-react"
 import type { PlantCategory } from "@/lib/types"
 
 const categories: { label: PlantCategory; icon: React.ElementType }[] = [
   { label: "Vegetables", icon: Carrot },
-  { label: "Herbs", icon: Shrub },
-  { label: "Flowers", icon: Flower2 },
+  { label: "Herbs", icon: Sprout },
+  { label: "Flowers", icon: Flower },
   { label: "Fruits", icon: Cherry },
-  { label: "Succulents", icon: Cactus },
+  { label: "Succulents", icon: Sun },
   { label: "Trees", icon: TreePine },
 ]
 
